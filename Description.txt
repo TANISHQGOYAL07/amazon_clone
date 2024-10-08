@@ -1,0 +1,6 @@
+CDN => Content Delievery Network
+A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+
+Using Amazon Font i.e Amazon ember 
+To incorporate the Amazon Ember font into my project, I first downloaded the font and then utilized the @font-face rule in my style.css file. This allowed me to seamlessly integrate the font into my project and ensure a consistent and professional appearance across all pages.
+

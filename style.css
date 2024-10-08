@@ -1,0 +1,282 @@
+@font-face {
+  font-family: amazonember;
+  src: url(amazonember.ttf);
+}
+* {
+  margin: 0;
+  font-family: amazonember;
+  border: border-box; /*If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width */
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    display: flex;/*for taking all the other elemnets in same line*/
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+
+}
+.logo{
+    height: 50px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 100%;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*box 3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 905px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    /* font-size: 1rem; */
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/*box4*/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+#dropdown{
+    background:transparent;
+    color: rgb(252, 249, 249);
+    border: none;
+}
+/*box5*/
+.nav-language{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+
+}
+.language-icon{
+    height: 1rem;
+    width: 1.2rem;
+
+}
+.language-text{
+    margin-left: 4px;
+}
+
+/*box6*/
+.nav-cart i {
+    font-size: 29px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+/*Hero section*/
+.hero-section{
+    background-image: url("amazonhomephones.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    
+    
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/*Shop Section */
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #124bf6;
+    flex-wrap: wrap;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+}
+/*Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+
+}
+.signin-upper{
+    background-color: #124bf6;
+    height: 25px;
+    position: relative;
+    top: -20px;
+}
+.signin-panel{
+    height: 120px;
+    border: 0.8px solid grey;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-panel2 button{
+    width: 290px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #fdbc3a;
+    border-color: #fdbc3a;
+    box-shadow: none;
+    margin-top: 5px;
+    position: relative;
+    right: 9px;
+    margin-bottom: 5px;
+}
+.signin-panel3{
+    display: flex;
+}
+.signin-panel3 a{
+    font-size: 0.85rem;
+    color: #007185;
+    text-decoration: none;
+    position: relative;
+    top: 1.5px;
+    left: 2.5px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    text-decoration: none;
+
+
+}
+
